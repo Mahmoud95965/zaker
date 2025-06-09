@@ -1,0 +1,57 @@
+{
+  "common": {
+    "search": "Search",
+    "categories": "Categories",
+    "pricing": "Pricing",
+    "free": "Free",
+    "freemium": "Freemium",
+    "paid": "Paid",
+    "subscription": "Subscription",
+    "new": "New",
+    "featured": "Featured",
+    "popular": "Popular",
+    "viewAll": "View All",
+    "submit": "Submit",
+    "learnMore": "Learn More"
+  },
+  "nav": {
+    "home": "Home",
+    "tools": "Tools",
+    "about": "About",
+    "submitTool": "Submit Tool"
+  },
+  "hero": {
+    "title": "AI-Powered Education Tools",
+    "subtitle": "for Students & Educators",
+    "description": "Zakerly is your central hub for discovering and exploring the best AI tools designed specifically for learning, teaching, and academic success.",
+    "searchPlaceholder": "Search for AI tools for writing, research, math, and more..."
+  },
+  "categories": {
+    "Writing": "Writing",
+    "Research": "Research",
+    "Math": "Math",
+    "Science": "Science",
+    "Language Learning": "Language Learning",
+    "Productivity": "Productivity",
+    "Studying": "Studying",
+    "Test Prep": "Test Prep",
+    "Teaching": "Teaching",
+    "Other": "Other"
+  },
+  "footer": {
+    "about": "Empowering education through AI tools and resources. Discover the future of learning with our curated selection.",
+    "navigation": "Navigation",
+    "support": "Support",
+    "subscribe": {
+      "title": "Subscribe",
+      "description": "Get the latest on AI education tools",
+      "button": "Subscribe",
+      "placeholder": "Enter your email"
+    },
+    "copyright": "© 2025 Zakerly. All rights reserved.",
+    "developmentStatus": "Launching {{date}}",
+    "madeWith": "Made with",
+    "inEgypt": "in Egypt",
+    "allRightsReserved": "All rights reserved"
+  }
+}
