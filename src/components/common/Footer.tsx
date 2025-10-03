@@ -11,7 +11,6 @@ import {
   ChevronDown,
   ChevronUp
 } from 'lucide-react';
-import NewsletterForm from './NewsletterForm';
 
 const Footer: React.FC = () => {
   const { t } = useTranslation();
@@ -29,7 +28,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gradient-to-b from-gray-900 to-black text-white">
       <div className="max-w-7xl mx-auto pt-12 pb-8 px-4 sm:px-6 lg:pt-16 lg:pb-12 lg:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
           {/* Brand Section */}
           <div className="space-y-6 sm:col-span-2 lg:col-span-1">            <div className="flex items-center group">
               <BrainCircuit className="h-8 w-8 text-indigo-400 animate-pulse-slow transition-all duration-300 group-hover:scale-110 group-hover:text-indigo-300" />
@@ -128,16 +127,6 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Newsletter Section */}
-          <div className="sm:col-span-2 lg:col-span-1">
-            <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase mb-4">
-              {t('footer.newsletter')}
-            </h3>
-            <p className="text-gray-400 mb-4">
-              {t('footer.newsletterDescription')}
-            </p>
-            <NewsletterForm className="max-w-full sm:max-w-md" />
-          </div>
         </div>
 
         {/* Bottom Bar */}

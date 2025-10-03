@@ -46,16 +46,6 @@ const HomePage: React.FC = () => {
       
       <CategorySection />
       
-      <div className="bg-gray-50 dark:bg-gray-900 transition-colors">
-        <FeaturedTools 
-          title={t('common.popular')}
-          subtitle={t('home.popularToolsSubtitle')}
-          tools={popularTools.slice(0, 4)}
-          viewAllLink="/tools?sort=popular"
-          className="bg-transparent"
-        />
-      </div>
-      
       <FeaturedTools 
         title={t('common.new')}
         subtitle={t('home.newToolsSubtitle')}
