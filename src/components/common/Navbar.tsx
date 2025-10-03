@@ -197,6 +197,13 @@ const Navbar: React.FC = () => {
                 <CircleUserRound className="h-5 w-5" />
               </Link>
             )}
+            <button 
+              onClick={toggleSearch}
+              className="p-2 rounded-full text-gray-500 hover:text-indigo-600 hover:bg-indigo-50 dark:text-gray-400 dark:hover:text-indigo-400 dark:hover:bg-gray-700 transition-all"
+              aria-label="البحث"
+            >
+              <Search className="h-5 w-5" />
+            </button>
             <button
               onClick={toggleDarkMode}
               className="p-2 rounded-full text-gray-500 hover:text-indigo-600 hover:bg-indigo-50 dark:text-gray-400 dark:hover:text-indigo-400 dark:hover:bg-gray-700 transition-all"
