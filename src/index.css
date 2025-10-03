@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* RTL Support */
+html[dir="rtl"] {
+  text-align: right;
+}
+
+/* Fix input directions for search fields */
+input[type="search"],
+input[type="text"],
+input[type="email"] {
+  direction: rtl;
+}
+
+/* Ensure LTR for English content */
+.ltr {
+  direction: ltr;
+}
+
+/* Additional styles for better Arabic text rendering */
+body {
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
